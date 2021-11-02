@@ -133,10 +133,15 @@ h1 {
 
 .footer {
   background-color: #48418e;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   color: white;
   font-weight: 700;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 640px) {
@@ -180,8 +185,7 @@ h1 {
   .header .img {
     position: relative;
     padding-top: 20px;
-/*     width: 100%;
- */    flex: 0 0 50%;
+    flex: 0 0 50%;
   }
 }
 
